@@ -18,4 +18,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Listagem.class);
         startActivity(intent);
     }
+
+    public void Menu(View view){
+
+        Intent intent = new Intent(this, Menu.class);
+
+        startActivity(intent);
+    }
 }

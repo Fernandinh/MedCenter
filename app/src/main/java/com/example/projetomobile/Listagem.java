@@ -23,11 +23,12 @@ public class Listagem extends AppCompatActivity {
 
         List<Coisas> coisasList = new ArrayList<Coisas>();
 
-        Coisas coisas = new Coisas("Fernando", "Programador", "1", "null");
+        Coisas coisas = new Coisas("Paracetamol", "utilizado para edução da febre e para o alívio temporário de dores leves a moderadas", "100 disponiveis", null);
         coisasList.add(coisas);
 
-        coisasList.add(new Coisas("Daniel", "Programador", "1", null));
-        coisasList.add(new Coisas("Yara", "Programadora", "1", null));
+        coisasList.add(new Coisas("Dipirona", "utilizado no tratamento de dores e febre", "65 disponiveis", null));
+        coisasList.add(new Coisas("Buscopam", " utilizado para tratar sintomas de cólicas intestinais, estomacais", "80 disponiveis", null));
+        coisasList.add(new Coisas("Ibuprofeno", " indicado para febre e dores de intensidade leve a moderada", "48 disponiveis", null));
 
 
         ContactsAdapter contactsAdapter = new ContactsAdapter(coisasList, this);

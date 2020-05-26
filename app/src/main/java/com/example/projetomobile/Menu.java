@@ -25,9 +25,6 @@ public class Menu extends AppCompatActivity {
 
         switch (item.getItemId())
         {
-            case R.id.contacts:
-
-                break;
 
             case R.id.logout:
             {

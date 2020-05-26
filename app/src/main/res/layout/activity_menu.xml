@@ -4,6 +4,192 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2962FF"
     tools:context=".Menu">
+
+    <Button
+        android:id="@+id/vacina"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="28dp"
+        android:background="#448AFF"
+        android:text="Vacinas"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toStartOf="@+id/buscar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vacina_i" />
+
+    <Button
+        android:id="@+id/ajuda"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:background="#448AFF"
+        android:text="Ajuda"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medicos_i" />
+
+    <Button
+        android:id="@+id/medicos2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="21dp"
+        android:background="#448AFF"
+        android:text="Medicos"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toStartOf="@+id/ajuda"
+        app:layout_constraintTop_toBottomOf="@+id/medicos_i2" />
+
+    <Button
+        android:id="@+id/prontuario2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="28dp"
+        android:background="#448AFF"
+        android:text="Prontuario"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toStartOf="@+id/medicos2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prontuario_i" />
+
+    <Button
+        android:id="@+id/medicamentos"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:background="#448AFF"
+        android:text="Medicamentos"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medicamento_i" />
+
+    <ImageView
+        android:id="@+id/vacina_i"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="28dp"
+        android:src="@drawable/vacinas"
+        app:layout_constraintEnd_toStartOf="@+id/ubs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sus"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/prontuario_i"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="28dp"
+        android:src="@drawable/prontuario"
+        app:layout_constraintEnd_toStartOf="@+id/medicos_i2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vacina"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+
+    <ImageView
+        android:id="@+id/medicos_i"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/ajuda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medicamentos"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/medicos_i2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="21dp"
+        android:src="@drawable/medicos"
+        app:layout_constraintEnd_toStartOf="@+id/medicos_i"
+        app:layout_constraintTop_toBottomOf="@+id/buscar"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/medicamento_i"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/medicamentos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sus"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/ubs"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="21dp"
+        android:src="@drawable/ubs"
+        app:layout_constraintEnd_toStartOf="@+id/medicamento_i"
+        app:layout_constraintTop_toBottomOf="@+id/sus"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <Button
+        android:id="@+id/buscar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="21dp"
+        android:background="#448AFF"
+        android:text="Buscar UBS"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toStartOf="@+id/medicamentos"
+        app:layout_constraintTop_toBottomOf="@+id/ubs" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="75dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/s"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="75dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/s"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+
+    <ImageView
+        android:id="@+id/sus"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/sus"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.569"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -146,6 +146,7 @@
 
     <Button
         android:id="@+id/buscar"
+        android:onClick="pesquisar_ubs"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="21dp"

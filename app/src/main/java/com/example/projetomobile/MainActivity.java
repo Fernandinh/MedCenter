@@ -25,4 +25,29 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
+    public void consultas_marcadas(View view){
+
+        Intent intent = new Intent(this, consultas_marcadas.class);
+
+        startActivity(intent);
+    }
+
+    public void consultas_antigas(View view){
+
+        Intent intent = new Intent(this, Consultas_Antigas.class);
+
+        startActivity(intent);
+    }
+
+    public void listagem_ubss(View view){
+
+        Intent intent = new Intent(this, Ubs.class);
+        startActivity(intent);
+    }
+
+    public void listagem_vacinas(View view){
+
+        Intent intent = new Intent(this, Vacinas.class);
+        startActivity(intent);
+    }
 }

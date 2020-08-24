@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".buscar_ubs"></activity>
+        <activity android:name=".Vacinas"></activity>
+        <activity android:name=".Consultas_Antigas" />
+        <activity android:name=".consultas_marcadas" />
+        <activity android:name=".Ubs" />
+        <activity android:name=".buscar_ubs" />
         <activity android:name=".Menu" />
         <activity android:name=".Listagem" />
         <activity android:name=".MainActivity">

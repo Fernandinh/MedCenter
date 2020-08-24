@@ -13,7 +13,7 @@
         android:layout_marginTop="32dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/paracetamol" />
+        app:srcCompat="@drawable/vacinas" />
 
     <TextView
         android:id="@+id/nome"
@@ -28,26 +28,26 @@
 
     <TextView
         android:id="@+id/descricao"
-        android:layout_width="227dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="16dp"
-        android:text="TextView"
-        android:textColor="#000000"
-        android:textSize="15dp"
-        android:textStyle="italic"
-        app:layout_constraintStart_toStartOf="@+id/qtd"
-        app:layout_constraintTop_toBottomOf="@+id/nome" />
-
-    <TextView
-        android:id="@+id/qtd"
-        android:layout_width="227dp"
-        android:layout_height="27dp"
-        android:layout_marginTop="68dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
         android:text="TextView"
         android:textColor="#000000"
         android:textSize="15dp"
         android:textStyle="italic"
         app:layout_constraintStart_toEndOf="@+id/foto"
         app:layout_constraintTop_toBottomOf="@+id/nome" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Veja a UBS mais próxima"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/foto"
+        app:layout_constraintTop_toBottomOf="@+id/descricao" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

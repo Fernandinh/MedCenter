@@ -41,4 +41,6 @@ public class Menu extends AppCompatActivity {
         Intent intent = new Intent(this, buscar_ubs.class);
         startActivity(intent);
     }
+
+
 }

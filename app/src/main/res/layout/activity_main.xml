@@ -163,7 +163,7 @@
 
     <Button
         android:id="@+id/image_16"
-
+        android:onClick="cadastro"
         android:layout_width="27dp"
         android:layout_height="27dp"
         android:layout_alignParentLeft="true"

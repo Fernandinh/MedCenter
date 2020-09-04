@@ -50,4 +50,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Vacinas.class);
         startActivity(intent);
     }
+
+    public void cadastro(View view){
+
+        Intent intent = new Intent(this, Login.class);
+        startActivity(intent);
+    }
 }

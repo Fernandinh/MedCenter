@@ -7,6 +7,9 @@
     android:background="#03A9F4"
     tools:context=".buscar_ubs">
 
+
+
+
     <View
         android:id="@+id/canvas"
         android:layout_width="408dp"
